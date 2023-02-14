@@ -1,0 +1,2 @@
+[webservers]
+10.135.1.31 ansible_user=ansible
