@@ -3,7 +3,7 @@ pipeline {
   stages {
     stage('Checkout SCM') {
       steps {
-        git branch: 'main', changelog: false, poll: false, url: 'https://github.com/itorres1994/test-ansible-pipeline2.git' 
+        git branch: 'master', changelog: false, poll: false, url: 'https://github.com/itorres1994/test-ansible-pipeline2.git' 
       }
     }
     stage('Execute Ansible') {
